@@ -2,18 +2,18 @@
 streamlit
 python-dotenv
 
-# Langchain ecosystem (locked to safe working versions)
+# Langchain (versions compatible with Streamlit Cloud & huggingface)
 langchain==0.1.16
-langchain-community==0.0.24
+langchain-community
 langchain-huggingface==0.1.2
 langchain-openai==0.0.8
 
-# Embedding + vector DB
+# Local embedding + transformers
 sentence-transformers==2.2.2
 transformers==4.36.2
 huggingface-hub==0.23.0
 faiss-cpu
 
-# Optional (if you're generating with OpenAI)
+# Optional - for GPT story generation
 openai
 
