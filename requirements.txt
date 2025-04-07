@@ -1,11 +1,20 @@
-# core LangChain
-langchain==0.1.13  
-# integrations (vectorstores, tools, embeddings, etc.)
-langchain-community==0.0.11
-langchain-openai==0.0.4
-
+# Core app functionality
 streamlit
-openai
-sentence-transformers
-faiss-cpu           # FAISS backend
 python-dotenv
+
+# LangChain (text splitting, chains, etc.)
+langchain>=0.2.0
+langchain-community
+langchain-huggingface
+langchain-openai
+
+# Embeddings and Transformers
+sentence-transformers==2.2.2
+transformers==4.36.2
+huggingface-hub==0.19.4  # Compatible version
+
+# Vector database
+faiss-cpu
+
+# Optional: Better markdown rendering, optional logging/debugging
+tqdm
