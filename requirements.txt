@@ -1,21 +1,19 @@
-# Core app
+# Core
 streamlit
 python-dotenv
 
-# Langchain ecosystem
-langchain==0.2.1
-langchain-community
-langchain-huggingface==0.1.4
-langchain-openai
+# Langchain ecosystem (locked to safe working versions)
+langchain==0.1.16
+langchain-community==0.0.24
+langchain-huggingface==0.1.2
+langchain-openai==0.0.8
 
-# Local embeddings
-sentence-transformers==2.6.1
-transformers==4.39.3
+# Embedding + vector DB
+sentence-transformers==2.2.2
+transformers==4.36.2
 huggingface-hub==0.23.0
-
-# Vector store
 faiss-cpu
 
-# OpenAI (for story generation)
+# Optional (if you're generating with OpenAI)
 openai
 
