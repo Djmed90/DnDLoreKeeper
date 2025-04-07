@@ -1,6 +1,11 @@
+# core LangChain
+langchain==0.1.13  
+# integrations (vectorstores, tools, embeddings, etc.)
+langchain-community==0.0.11
+langchain-openai==0.0.4
+
 streamlit
-langchain
 openai
-faiss-cpu
-tqdm
+sentence-transformers
+faiss-cpu           # FAISS backend
 python-dotenv
