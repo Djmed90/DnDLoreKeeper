@@ -1,20 +1,11 @@
-# Core app functionality
 streamlit
-python-dotenv
-
-# LangChain (text splitting, chains, etc.)
-langchain>=0.2.0
+langchain>=0.2
 langchain-community
 langchain-huggingface
 langchain-openai
-
-# Embeddings and Transformers
+openai
+python-dotenv
 sentence-transformers==2.2.2
 transformers==4.36.2
-huggingface-hub==0.19.4  # Compatible version
-
-# Vector database
+huggingface-hub==0.19.4
 faiss-cpu
-
-# Optional: Better markdown rendering, optional logging/debugging
-tqdm
