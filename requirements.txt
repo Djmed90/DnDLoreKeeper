@@ -1,11 +1,21 @@
+# Core app
 streamlit
-langchain>=0.2
-langchain-community
-langchain-huggingface
-langchain-openai
-openai
 python-dotenv
-sentence-transformers==2.2.2
-transformers==4.36.2
-huggingface-hub==0.19.4
+
+# Langchain ecosystem
+langchain==0.2.1
+langchain-community
+langchain-huggingface==0.1.4
+langchain-openai
+
+# Local embeddings
+sentence-transformers==2.6.1
+transformers==4.39.3
+huggingface-hub==0.23.0
+
+# Vector store
 faiss-cpu
+
+# OpenAI (for story generation)
+openai
+
